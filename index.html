@@ -12,9 +12,9 @@
     <div class="cont">
         <header>
             <ul class="menu">
-                <li><a href="">Principal</a></li>
-                <li><a href="">Habilidades</a></li>
-                <li><a href="">Projetos</a></li>
+                <li onclick="passaSecao(1)"><a href="#">Principal</a></li>
+                <li onclick="passaSecao(2)"><a href="#">Habilidades</a></li>
+                <li onclick="passaSecao(3)"><a href="#">Projetos</a></li>
             </ul>
         </header>
         <section class="container-conteudo">
@@ -22,23 +22,46 @@
                 <h1>Olá me chamo Antony, sou <span style="color:var(--cor-primaria)">programador</span>,<br> e provavelmente ainda iremos trabalhar <span style="text-decoration: underline var(--cor-primaria);">juntos</span>!</h1>
                 <img src="assets/imgs/pp.jpg" alt="">
             </div>
-            <div class="habilidades main">
+            <div class="lista habilidades main">
                 <h1>Aqui estão algumas da minhas <span style="text-decoration: underline var(--cor-primaria);">habilidades</span>&nbsp;&nbsp;;)</h1>
-                <div class="container-habilidade">
+                <div class="container-lista">
                     <img src="assets/imgs/html-5.svg" alt="" class="habilidade">
                     <p>HTML 5 e suas melhores práticas de semântica!</p>
                 </div>
-                <div class="container-habilidade">
+                <div class="container-lista">
                     <img src="assets/imgs/css.svg" alt="" class="habilidade">
                     <p>CSS 3 e da sua base as técnicas mais usadas como Flexbox, Grid e Clip-path</p>
                 </div>
-                <div class="container-habilidade">
+                <div class="container-lista">
                     <img src="assets/imgs/javascript.svg" alt="" class="habilidade">
                     <p>Javascript/Ecmascript 2018 e seus principios, orientação a objetos, manipulação do DOM e Canvas</p>
                 </div>
-                <div class="container-habilidade">
+                <div class="container-lista">
                     <img src="assets/imgs/github.svg" alt="" class="habilidade">
                     <p>Principais funções do Git/Github</p>
+                </div>
+            </div>
+            <div class="lista projetos main">
+                <h1>Aqui estão algumas dos meus <span style="text-decoration: underline var(--cor-primaria);">projetos</span>&nbsp;&nbsp;;)</h1>
+                <div class="container-lista">
+                    <img src="assets/imgs/if.png" alt="" class="projeto">
+                    <p><a href="http://instafonts.me/" target="blank">Instafonts.me</a> foi um site que fiz com o intuito de reuniar as principais fontes usadas no instagram, e conseguir transformar qualquer texto para elas.</p>
+                </div>
+                <div class="container-lista">
+                    <img src="assets/imgs/phishing.png" alt="" class="projeto"">
+                    <p>Um modelo de phishing iframe do facebook. Aqui o <a href="https://antonyonscript.github.io/facebook-phishing-iframe-model/" target="blank">link</a>.</p>
+                </div>
+                <div class="container-lista">
+                    <img src="assets/imgs/pong.png" alt="" class="projeto"">
+                    <p>Ping Pong usando o Canvas. Aqui o <a href="https://antonyonscript.github.io/ping-pong-onlyJS/" target="blank">link</a>... Cuidado com o rage :)</p>
+                </div>
+                <div class="container-lista">
+                    <img src="assets/imgs/mark.jpg" alt="" class="projeto">
+                    <p>Um layout de página de homenagem. Aqui o <a href="https://antonyonscript.github.io/tribute-template/" target="blank">link</a>.</p>
+                </div>
+                <div class="container-lista">
+                    <img src="assets/imgs/github.svg" alt="" class="projeto">
+                    <p>Também tenho outros projetos em meu <a href="https://github.com/AntonyOnScript/">Github</a>.</p>
                 </div>
             </div>
         </section>
