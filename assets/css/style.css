@@ -117,15 +117,16 @@ footer{
     justify-content: center;
     align-items: center;
 }
-footer i{
+footer a{
     font-size: 40px;
     transition: color .5s;
     cursor: pointer;
+    color: black;
 }
-footer i:nth-child(2){
+footer a:nth-child(2){
     margin: 0 20px;
 }
-footer i:hover{
+footer a:hover{
     color: var(--cor-primaria);
 }
 @keyframes transicao{
