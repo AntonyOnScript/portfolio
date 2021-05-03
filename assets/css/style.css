@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+:root{
+    --cor-primaria: #336969;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font: normal 18px "Yanone Kaffeesatz";
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+ul{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    padding: 30px 60px;
+    float: right;
+}
+.menu li:nth-child(2){
+    margin: 0 10px;
+}
+.menu li a{
+    color: black;
+    text-decoration: underline var(--cor-primaria) 2px;
+    transition: color .5s, text-decoration .5s;
+}
+.menu li a:hover{
+    color: var(--cor-primaria);
+    text-decoration: underline black 2px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+.cont{
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    width: 80%;
+    max-width: 1088px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+    height: 600px;
+}
+.principal{
+    margin-top: 40px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.principal img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100%;
+}
+.principal h1{
+    font-size: 36px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer i{
+    font-size: 40px;
+    transition: color .5s;
+    cursor: pointer;
+}
+footer i:nth-child(2){
+    margin: 0 20px;
+}
+footer i:hover{
+    color: var(--cor-primaria);
+}
