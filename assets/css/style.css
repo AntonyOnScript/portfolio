@@ -12,7 +12,7 @@ body{
     font: normal 18px "Yanone Kaffeesatz";
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    min-height: 100vh;
 }
 ul{
     list-style-type: none;
@@ -47,10 +47,16 @@ a{
     border-radius: 10px;
     height: 600px;
 }
+.container-conteudo{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
 .principal{
     margin-top: 40px;
     padding: 0 60px;
     display: flex;
+    display: none;
     justify-content: space-between;
 }
 .principal img{
@@ -60,6 +66,30 @@ a{
 }
 .principal h1{
     font-size: 36px;
+}/*
+.habilidades{
+    display: none;
+}*/
+.habilidades{
+    display: flex;
+    width: 100%;
+    height:100%;
+    flex-direction: column;
+    padding: 0 60px;
+}
+.habilidades h1{
+    margin-bottom: 30px;
+}
+.habilidades img{
+    margin: 10px;
+    margin-left: 0px;
+}
+img.habilidade{
+    width: 40px;
+}
+.container-habilidade{
+    display: flex;
+    align-items: center;
 }
 footer{
     display: flex;
