@@ -17,10 +17,13 @@ body{
 ul{
     list-style-type: none;
 }
+header{
+    display: flex;
+    justify-content: flex-end;
+}
 .menu{
     display: flex;
     padding: 30px 60px;
-    float: right;
 }
 .menu li:nth-child(2){
     margin: 0 10px;
@@ -57,6 +60,7 @@ a{
     background-color: white;
 }
 .container-conteudo{
+    display: flex;
     position: relative;
     max-width: 100%;
     max-height: 500px;
@@ -116,6 +120,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 footer a{
     font-size: 40px;
@@ -135,5 +140,58 @@ footer a:hover{
     }
     from{
         clip-path: circle(0% at 50% 50%);
+    }
+}
+@media only screen and (max-width:666px){
+    h1, .principal h1{
+        font-size: 30px;
+    }
+    .principal h1{
+        margin-bottom: 30px;
+    }
+    .principal{
+        flex-direction: column;
+        align-items: center;
+    }
+    br{
+        display: none;
+    }
+    img.projeto{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width:476px){
+    h1, .principal h1{
+        font-size: 26px;
+    }
+    .principal h1{
+        margin-bottom: 30px;
+    }
+    .principal{
+        margin-top: 0px;
+    }
+    p{
+        font-size: 15px;
+    }
+    img.projeto{
+        margin-right: 20px;
+    }
+    .menu{
+        padding: 0px;
+    }
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 426px){
+    .main{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 388px){
+    .cont{
+        width: 100%;
     }
 }
