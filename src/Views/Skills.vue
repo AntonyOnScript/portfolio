@@ -1,23 +1,23 @@
 <template>
     <div class="lista habilidades main">
-        <h1>Aqui estão algumas das minhas <span style="text-decoration: underline var(--cor-primaria);">habilidades</span>&nbsp;&nbsp;;)</h1>
+        <h1>Here are some of my <span style="text-decoration: underline var(--cor-primaria);">skills</span>&nbsp;&nbsp;;)</h1>
         <container urlImg="static/imgs/html-5.svg" aClass="habilidade">
-            <p>HTML 5 e suas melhores práticas de semântica!</p>
+            <p>Semantic HTML5!</p>
         </container>
         <container urlImg="static/imgs/css.svg" aClass="habilidade">
-            <p>CSS 3 da sua base as técnicas mais usadas como Flexbox, Grid e Clip-path!</p>
+            <p>CSS 3 from its base to its most useful techniques such as Flexbox, Grid and Clip-path!</p>
         </container>
         <container urlImg="static/imgs/javascript.svg" aClass="habilidade">
-            <p>Javascript/Ecmascript 2018 e seus principios, orientação a objetos, manipulação do DOM e Canvas!</p>
+            <p>Javascript/Ecmascript 6 and its principles, oriented object programming, DOM handling and Canvas!</p>
         </container>
         <container urlImg="static/imgs/github.svg" aClass="habilidade">
-            <p>Principais funções do Git/Github!</p>
+            <p>Main Git/Github functions!</p>
         </container>
         <container urlImg="static/imgs/php.png" aClass="habilidade">
-            <p>PHP 7 com suas boas praticas e manipulação de banco de dados!</p>
+            <p>PHP 7 with best practices and Database handling!</p>
         </container>
         <container urlImg="static/imgs/bootstrap.svg" aClass="habilidade">
-            <p>Conhecimento e experiência com Bootstrap 5 para projetos rápidos!</p>
+            <p>Knowledge and experience with Bootstrap 5 for fast projects!</p>
         </container>
     </div>
 </template>

@@ -2,9 +2,7 @@
     <div class="cont">
         <header>
             <ul class="menu">
-                <li><router-link :to="{ name: 'home' }"><a>Principal</a></router-link></li>
-                <li><router-link :to="{ name: 'skills' }"><a>Habilidades</a></router-link></li>
-                <li><router-link :to="{ name: 'experience' }"><a>Projetos</a></router-link></li>
+                <li v-for="route of routes" :key="route"><router-link :to="{ name: route.name }"><a>{{ route.tag }}</a></router-link></li>
             </ul>
         </header>
         <section class="container-conteudo">
