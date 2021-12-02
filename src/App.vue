@@ -8,7 +8,9 @@
             </ul>
         </header>
         <section class="container-conteudo">
-            <router-view></router-view>
+            <transition name="transition">
+                <router-view></router-view>
+            </transition>
         </section>
         <footer>
             <a href="https://github.com/AntonyOnScript/" target="blank"><i class="fab fa-github" aria-hidden="true"></i></a>
@@ -31,4 +33,16 @@ export default {
 </script>
 
 <style>
+    .transition-enter-active {
+        animation: transition 1s;
+    }
+
+    @keyframes transition {
+        from {
+            clip-path: circle(0% at 50% 50%);
+        }
+        to {
+            clip-path: circle(100% at 50% 50%);
+        }
+    }
 </style>
