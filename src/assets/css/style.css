@@ -98,18 +98,8 @@ a{
 img.habilidade{
     width: 40px;
 }
-.container-lista{
-    display: flex;
-    align-items: center;
-}
 .projetos{
     display: flex;
-}
-img.projeto{
-    width:200px;
-    height:200px;
-    margin-right: 40px;
-    border-radius: 100%;
 }
 footer{
     display: flex;
