@@ -1,42 +1,28 @@
 {
-  "name": "portfolio",
-  "description": "A Vue.js project",
-  "version": "1.0.0",
-  "author": "AntonyOnScript <santhiagoafk@gmail.com>",
-  "license": "MIT",
+  "name": "update",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "start": "node server.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@vue/cli": "^4.5.15",
-    "@vue/cli-service-global": "^4.5.15",
-    "connect-history-api-fallback": "^1.6.0",
-    "express": "^4.17.1",
-    "serve-static": "^1.14.1",
-    "style-loader": "^3.3.1",
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "vue": "^2.6.14",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
     "vue-cli": "^2.9.6",
-    "vue-router": "^3.5.3"
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not ie <= 8"
-  ],
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^5.0.5",
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
-    "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4",
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
-  }
+    "not dead"
+  ]
 }
