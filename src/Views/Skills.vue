@@ -26,7 +26,7 @@
             <p>Wordpress development!</p>
         </container>
         <container urlImg="imgs/bootstrap.svg" aClass="habilidade">
-            <p>Knowledge and experience with Bootstrap 5 for fast projects!</p>
+            <p>Knowledge and experience with Bootstrap 5!</p>
         </container>
     </div>
 </template>
