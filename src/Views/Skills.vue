@@ -5,7 +5,7 @@
             <p>Semantic HTML5!</p>
         </container>
         <container urlImg="imgs/css.svg" aClass="habilidade">
-            <p>CSS 3 from its base to its most useful techniques such as Flexbox, Grid and Clip-path!</p>
+            <p>CSS 3 from its base to its most useful techniques such as Flexbox and Grid!</p>
         </container>
         <container urlImg="imgs/javascript.svg" aClass="habilidade">
             <p>Javascript/Ecmascript 6 and its principles, oriented object programming, DOM handling and Canvas!</p>
