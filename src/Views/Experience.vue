@@ -8,7 +8,7 @@
             <p><a href="https://antonyonscript.github.io/instafonts/" target="blank">Instafonts.me</a> was made to nest all best instagram fonts. HTML, CSS, JS and BOOTSTRAP 5.</p>
         </container>
         <container urlImg="imgs/dakhia.svg">
-            <p>I've been participed the general devlopment of <a href="https://www.dakhia.com.br/">Dakhia</a>, but mainly the frontend with HTML, CSS and JS.</p>
+            <p>I've been participed the general devlopment of <a href="https://www.dakhia.com.br/" target="_blank">Dakhia</a>, but mainly the frontend with HTML, CSS and JS.</p>
         </container>
         <container urlImg="imgs/dracko.png">
             <p><a href="https://see-dogs.herokuapp.com/" target="blank">Dracko</a> was a template made by me to put my HTML, CSS and JS expertise in practice, but mainly to help my friend André, teaching him how git works!</p>
