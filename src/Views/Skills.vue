@@ -22,6 +22,9 @@
         <container urlImg="imgs/php.png" aClass="habilidade">
             <p>PHP 7 with best practices and Database handling!</p>
         </container>
+        <container urlImg="imgs/wordpress.png" aClass="habilidade">
+            <p>Wordpress development!</p>
+        </container>
         <container urlImg="imgs/bootstrap.svg" aClass="habilidade">
             <p>Knowledge and experience with Bootstrap 5 for fast projects!</p>
         </container>
