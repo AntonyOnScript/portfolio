@@ -13,6 +13,9 @@
         <container urlImg="imgs/vue.svg" aClass="habilidade">
             <p>Vue.js ecosystem (vue-cli, Vite, Vue Router, Vuex, Pinia, Vuetify...)!</p>
         </container>
+        <container urlImg="imgs/docker.svg" aClass="habilidade">
+            <p>Docker work environment and images development!</p>
+        </container>
         <container urlImg="imgs/github.svg" aClass="habilidade">
             <p>Main Git/Github functions!</p>
         </container>
