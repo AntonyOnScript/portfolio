@@ -10,6 +10,9 @@
         <container urlImg="imgs/javascript.svg" aClass="habilidade">
             <p>Javascript/Ecmascript 6 and its principles, oriented object programming, DOM handling and Canvas!</p>
         </container>
+        <container urlImg="imgs/vue.svg" aClass="habilidade">
+            <p>Vue.js ecosystem (vue-cli, Vite, Vue Router, Vuex, Pinia, Vuetify...)!</p>
+        </container>
         <container urlImg="imgs/github.svg" aClass="habilidade">
             <p>Main Git/Github functions!</p>
         </container>
