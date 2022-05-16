@@ -1,5 +1,12 @@
 <template>
     <div class="lista projetos main">
+        <h1><span style="text-decoration: underline var(--cor-primaria);">Companies</span> that i've worked for!</h1>
+        <container urlImg="imgs/pandaMark.svg">
+            <p><a href="https://pandavideo.com.br/" target="blank">Panda Video</a> - A Vimeo concurrent, here i've worked with Vue.js, Vuetify, Docker and Node.js with AWS Api Gateway.</p>
+        </container>
+        <container urlImg="imgs/evolker.png">
+            <p><a href="https://evolker.com.br/" target="blank">Evolker</a> - Is a brazilian web agency where i've worked with a lot of technologies, such as Vue.js, PHP (with and without Laravel), Javascript, Node.js, Wordpress.</p>
+        </container>
         <h1>Here are some of my <span style="text-decoration: underline var(--cor-primaria);">projects</span>&nbsp;&nbsp;;)</h1>
         <container urlImg="imgs/see-dogs.png">
             <p><a href="https://see-dogs.herokuapp.com/" target="blank">Random dogs</a> was made to show you all dogs breeds with Vue.js.</p>
