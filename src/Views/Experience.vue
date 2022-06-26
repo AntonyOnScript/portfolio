@@ -39,7 +39,7 @@
             <p>A tribute page layout. Here is the <a href="https://antonyonscript.github.io/tribute-template/" target="blank">link</a>.</p>
         </container>
         <container urlImg="imgs/pp.jpg">
-            <p>It was a template page for portfolios made fully by me with HTML, CSS and JS, <a href="https://antonyonscript.github.io/portfolio/" target="blank">link here</a>.</p>
+            <p>It was a template page for portfolios made fully by me with a HTML, CSS and JS version and this Vue.js version <a href="https://antonyonscript.github.io/portfolio/" target="blank">link here</a>.</p>
         </container>
         <container urlImg="imgs/github.svg">
             <p>I also have a <a href="https://github.com/AntonyOnScript/" target="blank">Github</a>, it has all my studies, projects and templates/boilerplates.</p>
